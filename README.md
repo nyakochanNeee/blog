@@ -6,6 +6,6 @@
   </iframe>
   <div class="tips">
       <span></span>
-      <img src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f603.png">
+      <img src="owo">
   </div>
 </div>
