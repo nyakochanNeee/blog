@@ -6,6 +6,8 @@
   </iframe>
   <div class="tips">
       <span></span>
-      <img src="owo">
+      <body>
+      nothing
+      </body>
   </div>
 </div>
