@@ -7,7 +7,8 @@
   <div class="tips">
       <span></span>
       <body>
-      nothing
+      Here is nothing going on just test github pages
+        But you get the rick roll LOL!
       </body>
   </div>
 </div>
