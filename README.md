@@ -7,7 +7,7 @@
   <div class="tips">
       <span></span>
       <body>
-      </span>Here is nothing going on just test github pages
+      Here is nothing going on just test github pages
         But you get the rick roll LOL!
       </body>
     <img src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f603.png" />
