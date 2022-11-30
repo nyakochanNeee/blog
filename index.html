@@ -2,19 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>背景虚化</title>
+    <title>>w<</title>
 </head>
 <body>
     <div class="main">
-<!--        以下为背景虚化，其他内容清晰-->
 <!--        内容层-->
         <div class="banner">
             <div class="banner-contain">
-                <h2>owo</h2>
+                <h2>CuteFox's Blog</h2>
             </div>
+                <div class="menu">
+                    <div id="menutext1" style="font-size: 50px;text-align: center;margin-top: 20px;">
+                    <b>主页</b></div>
+                    <div id="menutext2" style="font-size: 30px;text-align: center;margin-top: 50px;">
+                    About Me</div>
+                    <div id="menutext3" style="font-size: 20px;text-align: center;margin-top: 50px;">
+                    Nothing Here</div>
+                    <div id="menutext4" style="font-size: 20px;text-align: center;margin-top: 50px;">
+                    OwO</div>
+                </div>
 <!--            背景层-->
             <div class="banner-bg"></div>
-        </div>
+    </div>
     </div>
     <style>
         .main{
@@ -27,28 +36,47 @@
         .banner-bg{
             width: 100%;/*宽度铺满屏幕*/
             padding-top: 52.734%;/*图片高度除以宽度，得到此值*/
-            background: url("test.jpg")center center no-repeat;/*两个center分别为水平和垂直方向的对齐方式*/
+            background: url("img/bg.png")center center no-repeat;/*两个center分别为水平和垂直方向的对齐方式*/
             background-size: 100%;/*背景水平铺满*/
-            filter:blur(10px);/*虚化值，越大越模糊*/
+            filter:blur(1px);/*虚化值，越大越模糊*/
+            z-index: 1;
+        }
+        .menu{
+            position:absolute;
+            left:15px;
+            height:790px;
+            width:150px;
+            font-size: 20px;
+            float:left;
+            z-index: 6;
+            color: #ffffff;
+            background-color:#0000005c
         }
         .banner-contain{
             width: 100%;
             text-align: center;
             z-index: 6;/*将内容至于上层*/
-	    margin-bottom:2cm;
-	    font-size: 20px;
+	        margin-bottom:2cm;
+	        font-size: 20px;
             color: #636363;
 		}
 		/* 底部 */
-	  .footer {
-	        padding: -3px;
-  		text-align: center;
-  		background: #ddd;
-  		margin-top: 6px;
+	    .footer {
+	        padding: -2px;
+  		    text-align: center;
+  		    background: #ddd;
+  		    margin-top: -2px;
 		}
     </style>
 	    <div class="footer">
-             <h2>a</h2>
+             <h2>by CuteFox#4829</h2>
         </div>
+        <audio 
+        autoplay="autoplay" 
+        loop="loop" 
+        preload="auto"
+        src="music/3190096018.mp3">
+        </audio>
+
 </body>
 </html>
