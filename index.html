@@ -1,30 +1,54 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Web Design & Development Agency</title>
-	<meta name="description" content="Leading digital agency providing professional web design development and digital marketing services.">
-	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-        <style>
-		html {
-  			background-color: #efefef;
-			}
-		#main {
-    			text-align: center;
-    			padding-top: 40.5vh;
-                font-size: 40px;
-                color: #636363;
-			}
-	</style>
+    <meta charset="UTF-8">
+    <title>背景虚化</title>
 </head>
 <body>
-
-<div class="layout">
-	<p id="main"></p>
-</div>
-<script>
-var c = OwO;
-document.title = "Web Design & Development Agency - "+ c.charAt(0).toUpperCase() + c.slice(1);
-document.getElementById("main").innerHTML = c;
-</script>
+    <div class="main">
+<!--        以下为背景虚化，其他内容清晰-->
+<!--        内容层-->
+        <div class="banner">
+            <div class="banner-contain">
+                <h2>owo</h2>
+            </div>
+<!--            背景层-->
+            <div class="banner-bg"></div>
+        </div>
+    </div>
+    <style>
+        .main{
+            width: 100%;
+        }
+        .banner{
+            width: 100%;
+            position: relative;
+        }
+        .banner-bg{
+            width: 100%;/*宽度铺满屏幕*/
+            padding-top: 52.734%;/*图片高度除以宽度，得到此值*/
+            background: url("test.jpg")center center no-repeat;/*两个center分别为水平和垂直方向的对齐方式*/
+            background-size: 100%;/*背景水平铺满*/
+            filter:blur(10px);/*虚化值，越大越模糊*/
+        }
+        .banner-contain{
+            width: 100%;
+            text-align: center;
+            z-index: 6;/*将内容至于上层*/
+	    margin-bottom:2cm;
+	    font-size: 20px;
+            color: #636363;
+		}
+		/* 底部 */
+	  .footer {
+	        padding: -3px;
+  		text-align: center;
+  		background: #ddd;
+  		margin-top: 6px;
+		}
+    </style>
+	    <div class="footer">
+             <h2>a</h2>
+        </div>
 </body>
 </html>
