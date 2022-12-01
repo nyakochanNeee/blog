@@ -1,0 +1,10 @@
+.particleOwO {
+	z-index: 9;
+	width: 4px;
+	height: 4px;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+	position: absolute;
+	background: red;
+}
