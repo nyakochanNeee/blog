@@ -64,4 +64,4 @@
         }
     }
 		// 使用定时器运行运动函数
-    setInterval(run, 1)
+    setInterval(run, 0.1)

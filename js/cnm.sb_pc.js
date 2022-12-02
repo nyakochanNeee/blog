@@ -17,7 +17,7 @@ window.onload=function()
 	let divTyping = document.getElementById('etext')
 	let i = 0,
 		timer = 0,
-		str = '愿所有的美好都能得到祝福--全屏获得最佳观赏'
+		str = 'OwO  Tips:鼠标移动时滚轮可能无效'
 	function typing()
 	{
 		if (i <= str.length)

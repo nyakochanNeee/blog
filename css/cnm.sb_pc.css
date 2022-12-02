@@ -41,8 +41,8 @@ li{
 	position: fixed;
 	top: 0;
 	left: 0;
-	/* 站点背景图片 */
-	background-image: url(https://s2.loli.net/2022/11/30/ENcIrCuA9n1z7PZ.webp);
+	/* 站点背景图片  or https://s2.loli.net/2022/11/30/ENcIrCuA9n1z7PZ.webp*/
+	background-image: url(https://i.328888.xyz/img/2022/12/02/ih3nQ.jpeg);
 	/* background-image: url(图片api路径); */
 	background-size: cover;
 	background-position: center center;
@@ -98,7 +98,7 @@ li{
 	width: 100%;
 	height: 120px;
 	/* 左上角头像下面的背景图片 */
-	background-image: url(../img/header-bg.jpg);
+	background-image: url(https://i.328888.xyz/img/2022/12/02/ihWLL.jpeg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -179,7 +179,7 @@ li{
 	height: 100%;
 	background-color: #efefef;
 	/* 官网首页页面背景图片 */
-	background-image: url(../img/shouye.jpg);
+	background-image: url(https://i.328888.xyz/img/2022/12/02/ihlov.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -222,14 +222,14 @@ li{
 	text-align: left;
 }
 .nav01_wz h5{
-	font-size: 1em;
+	font-size: 25px;
 	letter-spacing: 0.1em;
-	font-weight: 300;
+	font-weight: 400;
 	color: #ff0000;
+	text-shadow: 8px 8px 8px #000000;
 }
 .nav01_wz h1{
-	font: 4em cnm,Arial,sans-serif;
-	text-shadow: 10px 10px 10px #909090;
+	font: 60px cnm,Arial,sans-serif;
 	letter-spacing: 0.3em;
 	font-weight: 700;
 	color: #ee7544;
@@ -239,7 +239,7 @@ li{
 .nav01_wz h4{
 	font: 1.8em cnm,Arial,sans-serif;
 	text-shadow: 5px 5px 5px #909090;
-	letter-spacing: 0.5em;
+	letter-spacing: 0.1em;
 	font-weight: 500;
 	color: #f55b34;
 }
@@ -247,8 +247,9 @@ li{
 	font-size: 1.3em;
 	letter-spacing: 0.2em;
 	font-weight: bolder;
-	color: #2e284c;
+	color: #0073ff;
 	margin-top: 8px;
+	text-shadow: 5px 5px 5px #000000;
 }
 .nav01_but{
 	margin-top: 14%;
@@ -304,7 +305,7 @@ li{
 }
 .nav01_fpw{
 	position: absolute;
-	font-size: 24px;
+	font-size: 32px;
 	right: 6%;
 	bottom: 18%;
 	letter-spacing: 2px;
@@ -399,7 +400,7 @@ li{
 	width: 100%;
 	height: 360px;
 	/* 关于站长页面顶部头图 */
-	background-image: url(../img/guanyuzhanzhang.jpg);
+	background-image: url(https://i.328888.xyz/img/2022/12/02/ihtxk.jpeg);
 	background-size: cover;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -721,7 +722,7 @@ li{
 	width: 100%;
 	height: 420px;
 	/* 站点展示页面顶部头图 */
-	background-image: url(../img/zhandian.jpg);
+	background-image: url(https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/be5bb2c677a2eaa1eea004155de1c5ff9000c580016a8cb7a100b6d705187e5d868d97e757720ee9b73983cb3208507f?pictype=scale&from=30113&version=3.3.3.3&uin=22741441&fname=zhandian.jpg&size=750);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -744,7 +745,7 @@ li{
 	left: 0;
 	z-index: 3;
 	/* 站点展示页面顶部头图 */
-	background-image: url(../img/zhandian.jpg);
+	background-image: url(https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/be5bb2c677a2eaa1eea004155de1c5ff9000c580016a8cb7a100b6d705187e5d868d97e757720ee9b73983cb3208507f?pictype=scale&from=30113&version=3.3.3.3&uin=22741441&fname=zhandian.jpg&size=750);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -756,7 +757,7 @@ li{
 	position: absolute;
 	z-index: 5;
 	/* 站点展示页面宇航员图片 */
-	background-image: url(../img/yuhangyuan.png);
+	background-image: url(https://i.328888.xyz/img/2022/12/02/ihH8y.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -768,7 +769,7 @@ li{
 	position: absolute;
 	z-index: 5;
 	/* 站点展示页面顶部鲸鱼图片 */
-	background-image: url(../img/jing.png);
+	background-image: url(https://i.328888.xyz/img/2022/12/02/ih0np.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -976,7 +977,7 @@ li{
 	width: 100%;
 	height: 360px;
 	/* 本站源码页面顶部头图 */
-	background-image: url(../img/benzhanyuanma.jpg);
+	background-image: url(https://i.328888.xyz/img/2022/12/02/ihnlx.jpeg);
 	background-size: cover;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -1001,7 +1002,7 @@ li{
 }
 .nav07_kj{
 	width: 90%;
-	margin: 80px auto 10px auto;
+	margin: 130px;
 	text-align: left;
 	overflow: hidden;
 }
@@ -1091,7 +1092,7 @@ li{
 	width: 100%;
 	height: 360px;
 	/* 静态资源页面顶部头图 */
-	background-image: url(../img/jingtaiziyuan.jpg);
+	background-image: url(https://i.328888.xyz/img/2022/12/02/ihCcU.jpeg);
 	background-size: cover;
 	background-position: center bottom;
 	background-repeat: no-repeat;
