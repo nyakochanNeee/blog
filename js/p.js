@@ -1,5 +1,5 @@
     // 定义粒子最大生命周期
-    const MAX_PERIOD = 100
+    const MAX_PERIOD = 20
 
     // 获取随机颜色函数，返回值 ： 0-255,0-255,0-255
     function getRandColor() {
@@ -24,7 +24,7 @@
         // 生成随机数
         var randDirectionValue = Math.random()
         // 随机改变粒子在垂直方向的移动方向，向上 或者 向下
-        speedY = randDirectionValue > 0.5 ? speedY : -speedY
+        speedY = randDirectionValue > 0.1 ? speedY : -speedY
         // 为该粒子设置X，Y轴移动速度，和生命周期
         particle.setAttribute('speedX', speedX)
         particle.setAttribute('speedY', speedY)
@@ -48,11 +48,10 @@
             // 获取粒子的当前的生命值
             var period = parseInt(particles[i].getAttribute('period'))
             // 增加生命值
-            period += 3;
+            period += 5;
             // 将当前生命值重新设置给该粒子
             particles[i].setAttribute('period', period)
             // 修改粒子的left 和 top 实现移动效果，（先获取粒子当前的偏移量，然后加上移动速度）
-            particles[i].style.left = parseFloat(particles[i].style.left) + parseFloat(speedX) + 'px'
             particles[i].style.top = parseFloat(particles[i].style.top) + parseFloat(speedY) + 'px'
             // 让粒子的颜色跟随，生命值而变化：使用 rgba 改变颜色的透明度
             particles[i].style.backgroundColor = 'rgba(' + color + ',' + (1 - period / 100) + ')';
